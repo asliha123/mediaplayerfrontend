@@ -1,0 +1,60 @@
+
+
+
+
+
+   create a web application using react js with below problem statements
+
+
+
+   1.user can create and delete edit
+
+   2.the card must contain name and a video/mp3 link
+
+   3.the user has the flexibility to create bucket to categories and a card according to his/her choice
+
+   4.user can move a card to different bucket
+
+   5.on clicking on the card a model with an inframe should open which start playing video
+
+   6.user can crteate and delete a card or multiple card under a single bucket at once
+
+   7.there should be a separate tab called history which list the mp3/mp4 links that you have played
+
+      i.e, the card name the link and the item was played
+
+      tech stack
+
+      -----------------------------
+
+      1.front-end: react.js
+      2.back-end  :create and use json server 
+
+      features of axios library
+
+      Make XMLHttpRequests from the browser
+      Make http requests from node.js
+      Supports the Promise API
+      Intercept request and response
+      Transform request and response data
+      Cancel requests
+      Automatic transforms for JSON data
+
+      request config
+         ----------------------
+
+      // `url` is the server URL that will be used for the request
+      url: '/user',
+     // `method` is the request method to be used when making the request
+     method: 'get', // default
+      // `headers` are custom headers to be sent
+      headers: {'X-Requested-With': 'XMLHttpRequest'},
+
+        // `data` is the data to be sent as the request body
+       // Only applicable for request methods 'PUT', 'POST', 'DELETE , and 'PATCH'
+      // When no `transformRequest` is set, must be of one of the following types:
+      // - string, plain object, ArrayBuffer, ArrayBufferView, URLSearchParams
+     // - Browser only: FormData, File, Blob
+     // - Node only: Stream, Buffer, FormData (form-data package)
+     data: 
+    firstName: 'Fred'
