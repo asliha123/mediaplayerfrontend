@@ -1,9 +1,7 @@
 import axios from "axios";
 
-
-
 // define commonRequest function 
- export const commonRequest=async(method,url,body)=>{
+export const commonRequest= async(method,url,body)=>{
 
     // api request configuration
 
@@ -16,11 +14,12 @@ import axios from "axios";
         }
     }
 
-    // api call using axios
-         
-  return await  axios(reqConfig).then((response)=>{
-        return response 
+    // api call using axios 
+
+   return await axios(reqConfig).then((response)=>{
+        return response
     }).catch((err)=>{
         return err
     })
+
 }
